@@ -12,6 +12,8 @@ img {
   font-weight: 900;
 }
 
+/* this diverges somewhat considerably from the solution, especially in how the items were centered.
+   the main takeaway is that the solution achieved a lot of this with `text-align: center;`, while this uses flex properties multiple times */
 .content{
   display: flex;
   flex-direction: column;
@@ -27,7 +29,10 @@ img {
 .info{
   display: flex;
   flex-direction: column;
+  gap: 10px;
   align-items: center;
+  width: 200px;
+  text-align: center;
 }
 
 /* do not edit this footer */
