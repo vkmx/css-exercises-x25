@@ -20,6 +20,7 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
+  /* the gaps were achieved using the below two rules, the elegant way would've been to use `gap` like in the solution*/
   width: 210px;
   justify-content: space-between;
 }
