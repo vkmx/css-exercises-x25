@@ -3,6 +3,7 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
 }
 
@@ -19,6 +20,8 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
+  width: 210px;
+  justify-content: space-between;
 }
 
 a {
