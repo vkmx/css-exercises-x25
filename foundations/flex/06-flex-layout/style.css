@@ -31,6 +31,10 @@ input {
   justify-content: space-between;
 }
 
+.footer {
+  background-color: #eee;
+}
+
 ul {
   margin: 0;
   padding: 0;
