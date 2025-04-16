@@ -72,6 +72,7 @@ button.cancel {
   color: royalblue;
 }
 
+/* while there's no huge revelation, the solution achives this with less styles and modifications to the html */
 h1 {
   margin: 0;
   padding: 0;
