@@ -83,3 +83,9 @@ h1 {
   justify-content: space-between;
   align-items: center;
 }
+
+.content, .body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
