@@ -28,6 +28,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 12px;
 }
 
 .card {
@@ -39,12 +40,16 @@ body {
 .sidebar a {
   color: white;
   text-decoration: none;
+  font-size: 22px;
 }
 
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .content {
