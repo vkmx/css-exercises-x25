@@ -29,6 +29,9 @@ input {
   width: 400px;
 }
 
+/* this doesn't diverge as much as the previous ones, though `flex` property was set in the solution for `.content`
+   and the padding which was applied to the `ul` here was applied to the `header` `footer` divs */
+
 .header, .footer {
   display: flex;
   justify-content: space-between;
