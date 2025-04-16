@@ -38,3 +38,8 @@ ul {
   display: flex;
   gap: 15px;
 }
+
+a {
+  color: #7e7e7e;
+  text-decoration: none;
+}
