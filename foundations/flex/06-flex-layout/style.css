@@ -29,3 +29,11 @@ input {
   display: flex;
   justify-content: space-between;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
